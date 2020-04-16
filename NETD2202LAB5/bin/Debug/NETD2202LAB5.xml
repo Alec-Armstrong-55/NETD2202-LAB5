@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NETD2202LAB5
+</name>
+</assembly>
+<members>
+<member name="T:NETD2202LAB5.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NETD2202LAB5.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NETD2202LAB5.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.frmArmstrongEditor_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the application is opened, set to defaults.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuFileNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens a new file after checking if the user wants to save the current file, setting to defaults.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuFileOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens a previously created text document.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuFileSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Saves the document currently open or calls upon the save as option.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuFileSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Saves the document currently open to the specified locationin memory.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuFileExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exit the application.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuEditCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ Copy the selected text.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuEditCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cuts the selected text.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuEditPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ Pastes the clipboard.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.mnuHelpAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Displays info on the form.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.SetDefaults">
+ <summary>
+ Set the defaults of the form.
+ </summary>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.SaveTextFile(System.String)">
+ <summary>
+ Saves the file that is passed into it.
+ </summary>
+ <param name="path">A full file path as a string</param>
+</member>
+<member name="M:NETD2202LAB5.frmArmstrongEditor.UpdateFormTitle">
+ <summary>
+ Updates the form's title text to include the open file path.
+ </summary>
+</member>
+</members>
+</doc>
